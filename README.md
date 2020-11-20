@@ -7,7 +7,7 @@ base on [wsldl](https://github.com/yuk7/wsldl)
 * Windows Subsystem for Linux feature is enabled.
 
 ## 💾Install
-#### 1. [Download](https://github.com/justforlxz/DeepinFS/releases/latest) installer zip
+#### 1. [Download](https://github.com/justforlxz/DeepinWSL/releases/latest) installer zip
 
 #### 2. Extract all files in zip file to same directory
 Please extract to a folder that has full access permission.
