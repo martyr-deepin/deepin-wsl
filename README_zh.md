@@ -113,7 +113,7 @@ export to backup.ext4.vhdx.gz  (WSL2 only)
 ```
 
 ## 📄许可证
-[MIT](LICENSES.md)
+[MIT](LICENSE.md)
 
 Copyright (c) 2017-2021 [yuk7](https://github.com/yuk7)
 
