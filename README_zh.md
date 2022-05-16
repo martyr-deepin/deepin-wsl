@@ -4,17 +4,16 @@
 
 [中文文档](./README_zh.md)
 
-Deepin on WSL (Windows 10 FCU or later)
-base on [wsldl](https://github.com/yuk7/wsldl)
+本项目基于 [wsldl](https://github.com/yuk7/wsldl)
 
-### [Detailed documentation is here](https://git.io/wsldl-doc)
+### [查看详细文档](https://git.io/wsldl-doc)
 
-## 💻Requirements
-* Windows 10 1709 Fall Creators Update or later(x64/arm64).
-* Windows Subsystem for Linux feature is enabled.
+## 💻要求
+* 大于或等于 Windows 10 1709 Fall Creators Update 版本(x64/arm64)。
+* 必须开启 Windows Subsystem for Linux 功能。
 
-## 📝How-to-Use(for Installed Instance)
-#### exe Usage
+## 📝如何去使用
+#### exe 的用法
 ```
 Usage :
     <no args>
@@ -56,25 +55,25 @@ Usage :
       - Print this usage message.
 ```
 
-#### Just Run exe
+#### 只运行 exe 程序
 ```cmd
 >Deepin.exe
 [root@PC-NAME user]#
 ```
 
-#### Run with command line
+#### 带参数运行
 ```cmd
 >Deepin.exe run uname -r
 4.4.0-43-Microsoft
 ```
 
-#### Run with command line with path translation
+#### 使用带有路径翻译的参数
 ```cmd
 >Deepin.exe runp echo C:\Windows\System32\cmd.exe
 /mnt/c/Windows/System32/cmd.exe
 ```
 
-#### Change Default User(id command required)
+#### 更改默认用户（需要先新建盖用户）
 ```cmd
 >Deepin.exe config --default-user user
 
@@ -82,18 +81,18 @@ Usage :
 [user@PC-NAME dir]$
 ```
 
-#### Set "Windows Terminal" as default terminal
+#### 设置 Windows Terminal 作为默认终端
 ```cmd
 >Deepin.exe config --default-term wt
 ```
 
-#### How to uninstall instance
+#### 如何卸载
 ```cmd
 >Deepin.exe clean
 
 ```
 
-#### How-to-backup
+#### 如何备份
 export to backup.tar.gz (WSL1 or 2)
 ```cmd
 >Deepin.exe backup --tgz
@@ -103,7 +102,7 @@ export to backup.ext4.vhdx.gz  (WSL2 only)
 >Deepin.exe backup --vhdxgz
 ```
 
-#### How-to-import
+#### 如何导入
 .tar(.gz)  (WSL1 or 2)
 ```cmd
 >Deepin.exe install backup.tar.gz
@@ -113,9 +112,9 @@ export to backup.ext4.vhdx.gz  (WSL2 only)
 >Deepin.exe install backup.ext4.vhdx.gz
 ```
 
-## 📄License
+## 📄许可证
 [MIT](LICENSES.md)
 
 Copyright (c) 2017-2021 [yuk7](https://github.com/yuk7)
 
-**Thanks to [yuk7](https://github.com/yuk7/)'s contribution, so that we can easily build our own WSL distribution.**
+**非常感谢 [yuk7](https://github.com/yuk7/) 的贡献, 让我们可以轻松的构建 WSL 发行版**
